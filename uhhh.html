@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+ 	<link rel = "stylesheet" type = "text/css" href = "style.css"/>
+  </head>
+ <title>Assignment 2</title>
+</head>
+<body>
+<h1> Central portal </h1>
+<form name = "myForm" action = "" onsubmit = "validateForm()">
+   <p>
+		<label>Enter User:
+		  <input type = "text" id = "nameId" placeholder = "Required"/>
+		</label>
+		<br />
+<label>Enter ID:
+		<input type = "password" id = "custId" placeholder = "Required"/>
+		</label>
+		<br />
+<label>Enter email:
+		  <input type = "text" id = "emailId" />
+		</label>
+		<br />
+		<br />
+ <!--Checkbox for email confirmation-->
+		<label>
+		  <input type = "checkbox" name = "eConfirm" onclick = "makeRequired()"/>
+		  Email me a transaction confirmation
+		</label>
+		<br />
+		<br />
+Select a transaction:&nbsp;
+		<select name = "txn">
+		  <option>Reservation</option>
+		  <option>Access Account Information</option>
+		  <option>Create Account</option>
+		</select>
+		&nbsp;
+		<!--Submit button-->
+		<input type = "submit" value = "Continue" />
+	  </p>
+	 </form>
+  </body>
+  <footer>
+	<script type = "text/javascript" src = "uhhhh.js"></script>
+  </footer>
+</html>
+
+
+
+
+
+
+
+
+

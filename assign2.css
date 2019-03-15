@@ -1,0 +1,56 @@
+body {
+
+background-color: lightblue;
+
+}
+
+#main {
+	
+	width: 300px;
+	padding: 25px;
+	border: 1px solid black;
+	margin: auto;
+					     
+
+}
+#head {
+
+width: 300px;
+padding: 25px;
+border: 1px solid black;
+margin: auto;
+
+
+
+
+}
+#check {
+width: 300px;
+padding: 25px;
+border: 1px solid black;
+margin: auto;
+
+
+
+
+
+}
+#choose {
+
+width: 300px;
+padding: 25px;
+border: 1px solid black;
+margin: auto;
+
+}
+
+#finished {
+
+width: 300px;
+padding: 25px;
+border: 1px solid black;
+margin: auto;
+
+
+}
+
