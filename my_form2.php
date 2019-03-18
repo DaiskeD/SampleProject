@@ -12,7 +12,7 @@ session_start();
 <?php
 if ( empty($_POST['user']) && empty($_POST['pass']) ) {
 	$selected = $_POST['txn'];
-	if ($selected === "Create Account") {
+if ($selected === "Create Account") {
 		header("Location: https://web.njit.edu/~jdh26/IT20218/CreateAccount.php");
 	} else {
 		
