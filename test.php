@@ -2,6 +2,7 @@
 $servername = "sql1.njit.edu";
 $username = "jdh26";
 $password = "TDibaq66";
+
 $dbname = "jdh26";
 
 // Create connection
